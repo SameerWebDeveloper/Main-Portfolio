@@ -1,6 +1,6 @@
-# Portfolio of MEshareebRajput 💼✨
+# Portfolio of Sameer Zubair 💼✨
 
-Welcome to the **Portfolio of Muhammad Eshareeb Rajput**! 🚀 This project showcases my journey as a **MERN Stack Developer** and highlights my skills, experiences, and key projects using **React.js**. Built with a modern and responsive design, this portfolio offers a glimpse into the work I’ve done and my vision for the future. 💻🌟
+Welcome to the **Portfolio of Sameer Zubair**! 🚀 This project showcases my journey as a **MERN Stack Developer** and highlights my skills, experiences, and key projects using **React.js**. Built with a modern and responsive design, this portfolio offers a glimpse into the work I’ve done and my vision for the future. 💻🌟
 
 ## Overview 🌍
 
@@ -24,38 +24,12 @@ In this portfolio, you'll find:
 - **CSS** – For styling and responsive design 🎨
 - **JavaScript** – For adding interactivity and functionality 🔄
 - **React Router** – For smooth page navigation 🔗
-
-## Quick Start 🚀
-
-To get this portfolio running on your local machine:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MEshareebRajput/Portfolio-of-MEshareebRajput.git
-   ```
-
-2. Navigate into the project directory:
-   ```bash
-   cd Portfolio-of-MEshareebRajput
-   ```
-
-3. Install the required dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Start the local development server:
-   ```bash
-   npm start
-   ```
-
-5. Open your browser and go to `http://localhost:3000` to view the portfolio in action. 🎉
-
+- 
 ## Contact Me 📬
 
 Feel free to reach out to me for any collaboration, queries, or job opportunities!
 
-- **Email**: muhammadeshareeb986@gmail.com 📧
-- **LinkedIn**: [Muhammad Eshareeb Rajput](https://www.linkedin.com/in/muhammadeshareeb986/) 🔗
+- **Email**: yts80399@gmail.com 📧
+- **LinkedIn**: [Muhammad Eshareeb Rajput](https://www.linkedin.com/in/sameer-zubair/) 🔗
   
 Looking forward to connecting! 🚀
