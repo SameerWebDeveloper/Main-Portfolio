@@ -30,6 +30,6 @@ In this portfolio, you'll find:
 Feel free to reach out to me for any collaboration, queries, or job opportunities!
 
 - **Email**: yts80399@gmail.com 📧
-- **LinkedIn**: [Muhammad Eshareeb Rajput](https://www.linkedin.com/in/sameer-zubair/) 🔗
+- **LinkedIn**: [Sameer Zubair](https://www.linkedin.com/in/sameer-zubair/) 🔗
   
 Looking forward to connecting! 🚀
