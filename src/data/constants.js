@@ -7,12 +7,12 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a Junior MERN Stack Developer with a passion for creating user-friendly applications and continuously enhancing my skills in both frontend and backend development.",
+    "I am a Junior Full Stack Developer with a passion for creating user-friendly applications and continuously enhancing my skills in both frontend and backend development.",
   github: "https://github.com/SameerWebDeveloper/",
   resume:
     "https://drive.google.com/file/d/14xPSuBjqmIQY1af2PXu0LbvI40rgtnuB/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/sameer-zubair-96041a320/",
-};  
+};
 
 export const skills = [
   {
@@ -43,6 +43,14 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
+        name: "Next.js",
+        image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+      },
+      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
@@ -58,8 +66,7 @@ export const skills = [
       },
       {
         name: "Express Js",
-        image:
-          "https://youteam.io/blog/wp-content/uploads/2022/04/expressjs_logo.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
       },
       {
         name: "MongoDB",
@@ -70,8 +77,21 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "Socket.IO",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg",
+      },
+      {
+        name: "JWT Authentication",
+        image: "https://jwt.io/img/pic_logo.svg",
+      },
+      {
+        name: "Stripe or Payment Gateway Integration",
+        image: "https://www.vectorlogo.zone/logos/stripe/stripe-ar21.svg",
+      },
+
     ],
-  },{
+  }, {
     title: "Android",
     skills: [
       {
@@ -83,7 +103,7 @@ export const skills = [
         image: "https://www.cdnlogo.com/logos/e/72/expo-go-app.svg",
       },
     ],
-  },  
+  },
   {
     title: "Others",
     skills: [
@@ -118,6 +138,16 @@ export const skills = [
           "https://media.licdn.com/dms/image/v2/D5622AQHrdl89ZDOIMQ/feedshare-shrink_800/feedshare-shrink_800/0/1713529716396?e=2147483647&v=beta&t=yxv2X9ckRz0jeOHO8cHjJAiPUv3K4klmY73Tq69UH0Y",
       },
       {
+        name: "ImageKit",
+        image:
+          "https://www.imagekit.io/docs/assets/imagekit-logo.svg",
+      },
+      {
+        name: "Figma",
+        image:
+          "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+      },
+      {
         name: "Vercel",
         image:
           "https://w7.pngwing.com/pngs/436/888/png-transparent-vercel-hd-logo-thumbnail.png",
@@ -145,6 +175,33 @@ export const experiences = [
       "Firebase",
     ],
   },
+  {
+    id: 1,
+    img: "https://cdn-icons-png.flaticon.com/512/906/906324.png",
+    role: "Freelance MERN Developer",
+    company: "Self-Employed",
+    date: "Oct 2024 - Dec 2024",
+    desc: "Developed and deployed custom MERN applications for clients, including e-commerce and blog platforms. Implemented secure authentication using JWT and integrated Stripe for payments.",
+    skills: ["MongoDB", "Express.js", "React.js", "Node.js", "Stripe", "JWT"],
+  },
+  {
+    id: 2,
+    img: "/SaadaHisab.jpg",
+    role: "Full Stack Developer",
+    company: "Sadaa Hisab (Garments Accounting Software)",
+    date: "Jan 2025 - Present",
+    desc: "Working with a senior developer to build an accounting and inventory management system tailored for the garment industry. Focused on building secure authentication, ledger management, and invoice generation features.",
+    skills: [
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "JWT Authentication",
+      "Tailwind"
+    ]
+  }
+
+
 ];
 
 export const education = [
@@ -188,47 +245,49 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
-    title: "Apple-Store-Website",
-    date: "Oct 2024 - One Day",
+    id: 1,
+    title: "Car Rental Website",
+    date: "Aug 2025 - 2 weeks",
     description:
-      "The Apple Store website is a dynamic e-commerce platform that showcases Apple's latest products, including iPhones, iPads, Macs, and accessories. Designed with a user-friendly interface, it offers seamless navigation, detailed product descriptions, and customer reviews. The site features secure payment options, personalized recommendations, and exclusive deals, providing customers with a convenient shopping experience that reflects Apple's commitment to innovation and quality.",
-    image:
-      "https://media.licdn.com/dms/image/v2/D4D22AQGi4-JoI6LStg/feedshare-shrink_2048_1536/B4DZTW2cBXGcAs-/0/1738771385133?e=1742428800&v=beta&t=yl2CeAcECDJFy9piXYmW549vDF5DXqFJncetR1ZztOg",
-    tags: ["React js", "Tailwind Css"],
+      "A fully functional car rental website built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). Key features include user authentication with JWT, car listings with location and date filters, a complete booking system, admin dashboard for car and booking management, and optimized image storage with ImageKit.",
+    image: "/car.avif",
+    tags: ["MongoDB", "Express.js", "React.js", "Node.js", "ImageKit"],
     category: "web app",
-    github: "https://github.com/MEshareebRajput/Apple-Store-Website.git",
-    webapp: "https://apple-store-website-rosy.vercel.app/",
+    github: "https://github.com/SameerWebDeveloper/Car-rental-fullstack",
+    webapp: "https://sameer-car-rental-fullstack.vercel.app/",
   },
   {
-    id: 1,
-    title: "Crypto Trading Web",
-    date: "Oct 2024 - One Day",
+    id: 2,
+    title: "Real-Time Chat App",
+    date: "Sept 2025 - 3 Weeks",
     description:
-      "CryptoVerse is a modern and interactive website designed for both beginners and experienced users in the world of cryptocurrency. Built using HTML and CSS, the site features a sleek and responsive layout that works seamlessly across all devices.",
-    image:
-      "https://media.licdn.com/dms/image/v2/D5622AQF0au0So_tYeg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1730115967407?e=1742428800&v=beta&t=SWCzDNbue2Z2q84DiDe5DWq1CB2BIB26LwEZVmP83Fs",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
+      "A real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Socket.IO for instant messaging. Features include user authentication, real-time message delivery without page reload, and a clean, responsive UI. Deployed on Vercel for global accessibility.",
+    image: "/chatting.avif", // ✅ Public path
+    tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.IO"],
     category: "web app",
-    github: "https://github.com/SameerWebDeveloper/Crypto-Website",
-    webapp: "https://cryptotradingweb.netlify.app/",
+    github: "https://github.com/SameerWebDeveloper/Chat-App",
+    webapp: "https://sameer-chat-app-fullstack.vercel.app/",
   },
   {
     id: 3,
-    title: "React Native",
-    date: "In Future",
+    title: "AI Chatbot Application",
+    date: "Oct 2025 - 3 Weeks",
     description:
-      "I am currently learning React Native, and I plan to work on several projects in the future.",
-    image:
-      "https://miro.medium.com/v2/resize:fit:1400/1*PaCLV0c8MhG1Zj8u9R1M3Q.png",
-    tags: ["React Natvie", "Expo"],
-    category: "android app",
-    github: "-------",
-    webapp: "--------",
+      "An advanced AI-powered chatbot application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) integrated with Google Gemini AI for text generation and ImageKit for AI-driven image generation. Features include user authentication, credit-based system with online payment gateway, and deployment for global access.",
+    image: "/chat.avif", // ✅ Public path
+    tags: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Google Gemini",
+      "ImageKit",
+      "Stripe",
+    ],
+    category: "web app",
+    github: "https://github.com/SameerWebDeveloper/QuickGPT",
+    webapp: "https://quick-gpt-sameer.vercel.app",
   },
 ];
+
 
