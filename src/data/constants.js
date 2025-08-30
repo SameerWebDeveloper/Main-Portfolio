@@ -288,6 +288,28 @@ export const projects = [
     github: "https://github.com/SameerWebDeveloper/QuickGPT",
     webapp: "https://quick-gpt-sameer.vercel.app",
   },
+  {
+    id: 4,
+    title: "AI SaaS Application",
+    date: "Nov 2025 - 4 Weeks",
+    description:
+      "A fully functional AI SaaS application built using the PERN stack (PostgreSQL, Express.js, React.js, and Node.js) with premium subscription billing. Features include user authentication using Clerk, subscription management with Stripe, and a serverless PostgreSQL database by Neon. AI-powered tools include Article Generator, Blog Title Generator, Image Generator, Background Remover, Object Remover, and Resume Analyzer.",
+    image: "/Ai.png", 
+    tags: [
+      "PostgreSQL",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Clerk",
+      "Stripe",
+      "Neon DB",
+      "AI Tools"
+    ],
+    category: "web app",
+    github: "https://github.com/SameerWebDeveloper/QuickAI", 
+    webapp: "https://quick-ai-sameer.vercel.app/",
+  }
+
 ];
 
 
